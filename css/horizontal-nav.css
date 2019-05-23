@@ -50,4 +50,5 @@ div.no2 {
 
 .no2 nav a:hover{
   color: red;
+  text-decoration: underline;
 }

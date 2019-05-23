@@ -7,18 +7,27 @@ h1 {
   margin-right: auto;
 }
 
-nav ul {
+h2 {
+  background-color: red;
+  padding: 0.5em;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no1 nav ul {
   list-style-type: none;
   padding: 0;
   text-align: center;
 }
 
-nav li {
+.no1 nav li {
   display: inline-block;
   text-align: right;
 }
 
-nav a {
+.no1 nav a {
   display: block;
   width: 6em;
   background-color: darkgreen;
@@ -27,6 +36,33 @@ nav a {
   padding: 0.5em;
 }
 
-nav a:hover {
+.no1 nav a:hover {
   background-color: limegreen;
+}
+
+.no2 nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.no2 nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+.no2 nav a {
+  display: block;
+  width: 5em;
+  background-color: brown;
+  color: aquamarine;
+  text-decoration: none;
+  padding: .7em;
+  margin: 1px 0;
+}
+
+.no2 nav a:hover {
+  background-color: aquamarine;
+  color: black;
+  text-decoration: underline;
 }
